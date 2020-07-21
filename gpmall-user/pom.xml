@@ -30,6 +30,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <!--验证码-->
         <kaptcha.version>2.3.2</kaptcha.version>
     </properties>
 
@@ -71,6 +72,12 @@
         </dependency>
         <dependency>
             <artifactId>user-sdk</artifactId>
+            <groupId>com.gpmall.user</groupId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!--这边漏了-->
+        <dependency>
+            <artifactId>user-api</artifactId>
             <groupId>com.gpmall.user</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
